@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #00eaff;
+        }
+
+        /* Content Area */
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* Simple Form */
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 250px;
+            border: 1px solid #777;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 15px;
+            background-color:#333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00bfff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="1.html">Home</a></li>
+            <li><a href="2.html">Gallery</a></li>
+            <li><a href="3.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Heading + Paragraph + Image -->
+        <h1><font color="skyblue" size="36">Welcome to My Simple Webpage</font></h1>
+        <p><font color="red" size="10">This is a basic webpage created using HTML and CSS. It includes a heading, paragraph, image, form, and a navigation menu.</font></p>
+        <img src="pro1.jpg" alt="Sample Image">
+
+        <!-- Basic Form -->
+        <form>
+            <input type="text" placeholder="Enter something...">
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+</body>
+</html>
